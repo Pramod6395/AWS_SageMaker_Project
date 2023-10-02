@@ -1,0 +1,13 @@
+prefix=/home/pramod/Desktop/project/MLOps/AWS_SageMaker_Project/awssegmaker
+exec_prefix=/home/pramod/Desktop/project/MLOps/AWS_SageMaker_Project/awssegmaker
+libdir=/home/pramod/Desktop/project/MLOps/AWS_SageMaker_Project/awssegmaker/lib
+sharedlibdir=/home/pramod/Desktop/project/MLOps/AWS_SageMaker_Project/awssegmaker/lib
+includedir=/home/pramod/Desktop/project/MLOps/AWS_SageMaker_Project/awssegmaker/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
